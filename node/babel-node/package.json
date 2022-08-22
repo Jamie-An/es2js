@@ -1,0 +1,17 @@
+{
+  "name": "babel-node",
+  "version": "1.0.0",
+  "description": "记得设置type=module",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "npx babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.17.10"
+  }
+}

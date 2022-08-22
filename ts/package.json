@@ -1,0 +1,19 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "init": "npx tsc --init",
+    "clean": "rm -rf dist",
+    "dev": "npm run clean && tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

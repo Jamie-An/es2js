@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面中动态编译ES6</title>
+</head>
+<body>
+  <h2>页面中动态编译ES6</h2>
+
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./main.js"></script>
+  <script type="text/babel">
+    // ES6代码，不支持外部import，会报错
+    // import main from './main.js'    
+    const A = {}
+    alert(A?.b)
+  </script>
+
+  
+</body>
+</html>
